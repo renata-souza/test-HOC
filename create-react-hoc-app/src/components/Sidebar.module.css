@@ -1,0 +1,12 @@
+.sidebar {
+  grid-area: sidebar;
+  width: 100px;
+  height: 100vh;
+  background-color: lightblue;
+  text-decoration: none;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}

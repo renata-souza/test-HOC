@@ -1,0 +1,23 @@
+.titled_container {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: min-content 1fr;
+}
+.title {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: pink;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.titled_content {
+  position: relative;
+  padding: 1rem;
+  border: 1px solid pink;
+  border-radius: 1rem;
+  border-top-left-radius: 0;
+  grid-column: 1/-1;
+}

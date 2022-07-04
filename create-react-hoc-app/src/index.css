@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "header header" "sidebar content";
+  grid-template-rows: max-content 1fr;
+  grid-template-columns: max-content 1fr;
+  height: 100%;
+}
+
+.content {
+  grid-area: content;
+  padding: 1rem;
+}
